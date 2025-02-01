@@ -16,5 +16,5 @@ print('A raiz de {} é igual a {:.2f}'.format(num,raiz))
 # num = int(input('Digite um numero: '))
 # raiz = sqrt(num)
 # print('A raiz de {} é igual a {:.2f}'.format(num, floor(raiz)))
-import emoji
-print(emoji.emojize('Ola, Mundo 🌎'))
+# import emoji
+# print(emoji.emojize('Ola, Mundo 🌎'))

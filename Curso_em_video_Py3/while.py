@@ -137,3 +137,9 @@ quando queremos garantir que algo não seja um valor específico como None.
 Esses exemplos devem te ajudar a entender melhor o uso do while em diferentes
 cenários! Se ainda tiver alguma dúvida, posso ajudar mais.
 '''
+while True:
+    nome = input('Digite seu nome (ou "sair" para parar): ').lower()
+    if nome == 'sair':
+        break  # Sai do loop
+    print(f'Olá, {nome}!')
+print('Programa encerrado!')
